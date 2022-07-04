@@ -1,0 +1,96 @@
+@import '_vars';
+
+// Body
+body{
+    font-family: $fontMain;
+    &.locked{
+        overflow: hidden;
+    }
+    }
+
+//Container
+.container{
+    max-width: ($containerWidth + $containerPadding) + px;
+    width: 100%;
+
+    margin: 0 auto;
+   /*  padding: 0 $containerSidePadding + px; */
+    
+    @media (max-width: $breakpoint1200) {
+    max-width: 1160px;
+    }
+    
+    @media (max-width: $breakpoint992) {
+    max-width: 970px;
+    }
+    
+    @media (max-width: $breakpoint768) {
+        max-width: 740px;
+    }
+    
+    @media (max-width: $breakpoint480) {
+    max-width: none;
+    }
+}
+
+
+//Buttons
+.btn{
+    padding: 15px 22px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+ 
+    letter-spacing: 0.01em;
+    display: inline-block;
+    text-decoration: none;
+    
+    &__primary{
+        color: #FFFFFF;
+        border: 3px solid rgba(44, 130, 253, 0.2);
+        border-radius: 4px;
+        background-color: $secondary;
+        &:hover{
+            background: $secondaryHover;
+            transition: .3s ease;
+        }
+  
+    }
+    &__secondary{
+        background: rgba(44, 130, 253, 0.15);
+        border-radius: 4px;
+        color: $secondary;
+        border: 3px solid transparent;
+        &:hover{
+            background: $secondaryHover;
+            transition: .3s ease;
+            color: #FFFFFF;
+        }
+    }
+}
+.nav{
+    &__btn{
+
+    }
+}
+
+//section__title
+.section__title{
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 110%;
+    letter-spacing: -0.03em;
+    color: $primary;
+}
+
+// Fade
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
