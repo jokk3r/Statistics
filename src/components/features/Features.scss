@@ -1,8 +1,8 @@
 @import './../../scss/vars';
 
 .section{
-    &__features{
-        padding: 72px 0;
+    &__fetures{
+        padding: 72px 5vw;
        
                             
     }
@@ -13,14 +13,35 @@
 
     }
 }
+/* @media(max-width: $breakpoint1200){
+
+}
+@media (max-width: $breakpoint992) {
+   
+}
+@media (max-width: $breakpoint480) {
+   
+} */
 
 .features{
     display: flex;
     gap: 122px; 
-    justify-content: space-between; 
+    justify-content: space-between;
+    @media(max-width: 1300px){
+      gap: 60px;
+    }
+    @media(max-width: $breakpoint1200){
+       gap: 35px;
+    }
+    @media (max-width: $breakpoint992) {
+       flex-wrap: wrap;
+    }
     &__item{
         &:first-child{
         flex: 0 1 475px;
+        @media (max-width: $breakpoint992) {
+            flex: 0 1 100%;
+        }
         .accordion{
             margin-top: 24px;
             .accordion__item{
@@ -29,10 +50,15 @@
                 box-shadow: 0px 4px 15px rgba(10, 21, 39, 0.1);
                 border-radius: 6px;
                 &.accordion__item-active{
+                    .accordion__item-trigger{
+                        .trigger__text{
+                        opacity: 1;
+                        transition: .3s ease;
+                        }
+                    }
                     .accordion__item-content{
                         display: block;
                     }
-                   
                    
                 }
                 .accordion__item-trigger{
@@ -40,6 +66,9 @@
                     padding: 24px 28px;
                     align-items: center;
                     cursor: pointer;
+                    @media (max-width: $breakpoint768) {
+                         padding: 12px;
+                    } 
                     .trigger__img{
                     
                     }
@@ -51,6 +80,14 @@
                         letter-spacing: -0.01em;
                         color: $primary;
                         margin-left: 10px;
+                        opacity: 0.7;
+                        @media (max-width: $breakpoint768) {
+                            line-height: 110%;
+                            font-size: 18px;
+                        } 
+                        @media (max-width: $breakpoint480) {            
+                            font-size: 16px;
+                        } 
                     }
                 }
                 .accordion__item-content{
@@ -58,6 +95,9 @@
                     display: none; 
                     animation: fade .3s ease;
                     padding: 0 28px 36px 28px;
+                    @media (max-width: $breakpoint768) {
+                        padding: 0 16px 16px 16px;
+                    }
                     .content__text{
                         font-style: normal;
                         font-weight: 400;
@@ -68,6 +108,10 @@
                         &:first-child{
                             margin-top: 0;
                         }
+                        @media (max-width: $breakpoint480) {
+                            line-height: 130%;
+                         
+                        } 
                     }
                 }
             }
@@ -75,6 +119,13 @@
         }
         }
         &:last-child{  
+            @media(max-width: $breakpoint1200){
+                img{
+                    max-width: 100%;
+                    width: 100%;
+                    height: auto;
+                }
+            }
         }
             }
 }
@@ -84,9 +135,25 @@
     background:  #F7F7F7;
     border-radius: 12px;
     margin-top: 35px;
-    &__item{}
+    @media (max-width: $breakpoint480) {
+   flex-wrap: wrap;
+    }
+    &__item{
+        @media (max-width: $breakpoint992) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        @media (max-width: $breakpoint480) {
+            flex: 0 1 100%;
+        }
+    }
     &__item-img{
         padding: 0 15px 15px 15px;
+        @media (max-width: $breakpoint480) {
+            padding: 10px 10px 0 10px;
+            text-align: center;
+        }
     }
     &__item-info{
         padding:15px;
@@ -111,8 +178,18 @@
     }
     &__btn{
         margin-top: 35px;
+        @media (max-width: $breakpoint992) {
+            display: flex;
+            max-width:fit-content;
+            margin: 0 auto;
+            margin-top: 25px;
+        }
+        
         span{
-         font-weight: 400;   
+            font-weight: 400;
+            @media (max-width: $breakpoint992) {
+                margin-left: 5px;
+            }   
         }
     }
 }
