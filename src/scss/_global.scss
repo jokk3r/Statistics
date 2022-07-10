@@ -40,11 +40,9 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
- 
     letter-spacing: 0.01em;
     display: inline-block;
     text-decoration: none;
-    
     &__primary{
         color: #FFFFFF;
         border: 3px solid rgba(44, 130, 253, 0.2);
@@ -54,7 +52,6 @@ body{
             background: $secondaryHover;
             transition: .3s ease;
         }
-  
     }
     &__secondary{
         background: rgba(44, 130, 253, 0.15);
@@ -87,6 +84,16 @@ body{
         margin-top: 14px;
         font-size: 36px;
     } 
+}
+//section__text
+.section__text{
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 23, 49, 0.55);
 }
 
 // Fade
