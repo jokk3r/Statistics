@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Statistics/static/css/main.da97c219.css",
+    "main.js": "/Statistics/static/js/main.04776a28.js",
+    "static/js/787.3e4c31ce.chunk.js": "/Statistics/static/js/787.3e4c31ce.chunk.js",
+    "static/media/learn__img.png": "/Statistics/static/media/learn__img.56302e4b2423675c9d1a.png",
+    "static/media/Features__img.jpg": "/Statistics/static/media/Features__img.33190065bea8e55a0d1b.jpg",
+    "static/media/mac.png": "/Statistics/static/media/mac.60897e176596bb3e5cfa.png",
+    "static/media/video__preview.jpg": "/Statistics/static/media/video__preview.201325ac08475974e396.jpg",
+    "static/media/quote__avatar.png": "/Statistics/static/media/quote__avatar.73ea4d346888c4ebb5f4.png",
+    "static/media/Bonus.svg": "/Statistics/static/media/Bonus.02dc6e800d6c1131c8a4bccf61bbd856.svg",
+    "static/media/iconRating.svg": "/Statistics/static/media/iconRating.81497052389abd3d223171a5edd69d6d.svg",
+    "static/media/icon__instagram.svg": "/Statistics/static/media/icon__instagram.2022d1d02e42fc2bee57c5974f8e14a3.svg",
+    "static/media/iconChat.svg": "/Statistics/static/media/iconChat.bb9057c058176d991e95015a7cf1c6c8.svg",
+    "static/media/iconMoney-dark.svg": "/Statistics/static/media/iconMoney-dark.4db3a1a20fbfbf0e4716a3b5ef7ee9df.svg",
+    "static/media/iconMoney.svg": "/Statistics/static/media/iconMoney.267cfafe27d8d9bd8f451bbad83e8bda.svg",
+    "static/media/Logo.svg": "/Statistics/static/media/Logo.54bbd530f87b5daa471845391c82b5b3.svg",
+    "static/media/icon__ball.svg": "/Statistics/static/media/icon__ball.7bc3fdb48b18756b71bb597ac6b6b82a.svg",
+    "static/media/FAQ__icon.svg": "/Statistics/static/media/FAQ__icon.28b0f1d8dcd70103b10d2bf15f219137.svg",
+    "static/media/icon__twitter.svg": "/Statistics/static/media/icon__twitter.e2aabd30771b33b63eda23592dbcbf0b.svg",
+    "static/media/play.svg": "/Statistics/static/media/play.3f892072559423fe88b2292732a9c9af.svg",
+    "static/media/iconCard-dark.svg": "/Statistics/static/media/iconCard-dark.b18a302b5e25563dc8ce3c02971f312b.svg",
+    "static/media/iconCard.svg": "/Statistics/static/media/iconCard.64acf097f7cafec108f559e2b21cf3e8.svg",
+    "static/media/Game.svg": "/Statistics/static/media/Game.7362954501053bad7ed21edd7d3997a9.svg",
+    "static/media/Practice.svg": "/Statistics/static/media/Practice.cc86232428477ddee5ecf4ff0cae1565.svg",
+    "index.html": "/Statistics/index.html",
+    "static/media/Browse.svg": "/Statistics/static/media/Browse.277613a4470f7e8416d6c18c3bc1f077.svg",
+    "static/media/priceInfo.svg": "/Statistics/static/media/priceInfo.b250447c81b050ce3fca3998c7d1a051.svg",
+    "static/media/iconLearn.svg": "/Statistics/static/media/iconLearn.b66c0e3b9c7806c01aadc121f9eab93a.svg",
+    "static/media/priceInfo-pro.svg": "/Statistics/static/media/priceInfo-pro.0dc4f941fc5fc04538a79edccc0d166b.svg",
+    "static/media/icon__facebook.svg": "/Statistics/static/media/icon__facebook.fa3e71eadb49c04280f5b6fb397ccd3a.svg",
+    "static/media/Features__icon.svg": "/Statistics/static/media/Features__icon.b6fca5b7a676cc3df97bf38ff10a1932.svg",
+    "static/media/close.svg": "/Statistics/static/media/close.44448d19b1600f50f9c0b061142dcddb.svg",
+    "static/media/menu.svg": "/Statistics/static/media/menu.f2bdad223dd90d148b092cbff61504d7.svg",
+    "main.da97c219.css.map": "/Statistics/static/css/main.da97c219.css.map",
+    "main.04776a28.js.map": "/Statistics/static/js/main.04776a28.js.map",
+    "787.3e4c31ce.chunk.js.map": "/Statistics/static/js/787.3e4c31ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da97c219.css",
+    "static/js/main.04776a28.js"
+  ]
+}
