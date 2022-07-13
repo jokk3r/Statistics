@@ -2,7 +2,6 @@
 @use 'sass:math';
 $containerWidth: 1280;
 $containerPadding: 40;
-/* $containerSidePadding:( math.div($containerPadding, 2)); */
 $breakpoint1200: 1199.98 + px;
 $breakpoint992: 991.98 + px;
 $breakpoint768: 768.98 + px;
@@ -20,5 +19,5 @@ $secondary:#398BFF;
 $secondaryHover:#2575e4;
 
 // Fonts
-$fontMain: 'Gilroy' sans-serif;
+$fontMain: 'Roboto' sans-serif;
 $fontSecondary: '';

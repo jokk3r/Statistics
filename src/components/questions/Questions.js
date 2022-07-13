@@ -5,7 +5,7 @@ import SinglePunkt from "./SinglePunkt"
 
 function Questions() {
     return (
-        <section className="section__faq">
+        <section className="section__faq" id="FAQ">
         <div className="container">
             <div className="section__icon"><img src={Icon} alt="icon" /></div>
             <div className="section__title">

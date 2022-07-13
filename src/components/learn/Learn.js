@@ -2,6 +2,7 @@ import React from 'react';
 import "./Learn.scss"
 import learnImg from "./../../img/learn__img.png"
 import learnIcon from "./../../img/iconLearn.svg"
+
 function Learn() {
     return (
        <section class='section__learn'>

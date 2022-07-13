@@ -1,8 +1,8 @@
 import React,  { useState, useRef, useEffect } from "react";
 import "./Header.scss";
 import logo from "./../../../img/Logo.svg";
-import Burger from "./../../../img/hamburger-menu.svg";
-import Cross from "./../../../img/cross.svg";
+import Burger from "./../../../img/menu.svg";
+import Close from "./../../../img/close.svg";
 
 function Header() {
     const [sidebar, setSidebar] = useState(false);
@@ -10,10 +10,7 @@ function Header() {
     const showSidebar = () => setSidebar(!sidebar);
     const node = useRef();
     const widthToShowSidebar = 768;
-  /*   useOnClickOutside(node, () => setSidebar(false)); */
     return (
-    
-
         <header className="header__main" >
         <nav>
         <div className="navbar">
@@ -21,10 +18,10 @@ function Header() {
                 <a href="#"><img src={logo} alt="logo" /></a>
             </div>
         <ul className="menu">
-            <li className="menu__item"><a href="#" className="menu__item-link" data-scroll>How it works</a></li>
-            <li className="menu__item"><a href="#" className="menu__item-link" data-scroll>Pricing</a></li>
-            <li className="menu__item"><a href="#" className="menu__item-link" data-scroll>About Us</a></li>
-            <li className="menu__item"><a href="#" className="menu__item-link" data-scroll>FAQ</a></li>
+            <li className="menu__item"><a href="#howItWorks" className="menu__item-link" data-scroll>How it works</a></li>
+            <li className="menu__item"><a href="#pricing" className="menu__item-link" data-scroll>Pricing</a></li>
+            <li className="menu__item"><a href="#aboutUs" className="menu__item-link" data-scroll>About Us</a></li>
+            <li className="menu__item"><a href="#FAQ" className="menu__item-link" data-scroll>FAQ</a></li>
         </ul>
       <div className="nav__controlls">
           <div className="select"> EN
@@ -36,14 +33,13 @@ function Header() {
       </div>
       {width > widthToShowSidebar ? (
         <div>
-          <p>123</p>
         </div>
       ) : (
         <div className="nav__burger" onClick={showSidebar}>
         {sidebar ? (
-          <img src={Cross} className="nav__logoBurger" alt="" />
+          <img src={Close} className="nav__logoBurger" alt="cross" />
         ) : (
-          <img src={Burger} className="nav__logoBurger" alt="" />
+          <img src={Burger} className="nav__logoBurger" alt="menu" />
         )}
       </div>
       )}

@@ -7,10 +7,8 @@ import mainImg from "./../../img/Features__img.jpg"
 import Avatar from "./../../img/quote__avatar.png"
 
 function Features() {
-/*     const [isActive, setIsActive] = useState(false); */
-console.log(FeaturesData)
     return (
-       <section className="section__fetures">
+       <section className="section__fetures" id={'howItWorks'}>
         <div className="container">
             <div className="section__icon"><img src={Icon} alt="icon" /></div>
             <h3 className="section__title">Features</h3>

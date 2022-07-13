@@ -5,7 +5,7 @@ import Play from "./../../img/play.svg"
 
 function Story() {
     return (
-        <section className='section__story'>
+        <section className='section__story' id='aboutUs'>
             <div className="container">
                 <div className="story">
 

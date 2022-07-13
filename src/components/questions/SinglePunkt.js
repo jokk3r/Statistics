@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./Questions.scss"
 
 
-const SinglePunkt = ({ icon, heading, content}) => {
+const SinglePunkt = ({ heading, content}) => {
   const [isActive, setIsActive] = useState(false)
   let className = 'accordion__item';
   if (isActive) {

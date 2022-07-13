@@ -2,9 +2,7 @@
 
 .section{
     &__fetures{
-        padding: 72px 5vw;
-       
-                            
+        padding: 72px 5vw;                    
     }
     &__icon{
 
@@ -13,15 +11,7 @@
 
     }
 }
-/* @media(max-width: $breakpoint1200){
 
-}
-@media (max-width: $breakpoint992) {
-   
-}
-@media (max-width: $breakpoint480) {
-   
-} */
 .section__title{
     margin-top: 24px;
     font-style: normal;
@@ -148,7 +138,7 @@
     border-radius: 12px;
     margin-top: 35px;
     @media (max-width: $breakpoint480) {
-   flex-wrap: wrap;
+        flex-wrap: wrap;
     }
     &__item{
         @media (max-width: $breakpoint992) {

@@ -2,7 +2,11 @@
 
 .section{
     &__hero{
-padding: 0 5vw;
+        padding: 0 5vw;
+        @media (max-width: $breakpoint768) {
+            z-index: 1;
+            padding-top: 80px;
+}
     }
 }
 .header__wrapper{

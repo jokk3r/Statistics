@@ -16,7 +16,7 @@ function Pricing() {
       className += ' active';
     }
     return (
-        <section className="section__pricing">
+        <section className="section__pricing" id={"pricing"}>
             <div className="container">
                 <div className="pricing__header">
                     <div className="pricing__header-item">

@@ -43,11 +43,11 @@ function Reviews() {
                     </div>
                 </div>
                 <div className="review__text">
-                Developers are very receptive and have
-                rapidly added features based on feedback.
-                They have separated themselves from other
-                similar tools and continue to make the
-                product better and better.
+                    Developers are very receptive and have
+                    rapidly added features based on feedback.
+                    They have separated themselves from other
+                    similar tools and continue to make the
+                    product better and better.
                 </div>
                 <div className="review__footer">
                     <div className="review__footer-item">9:35 PM - Jan 13, 2022</div>
@@ -63,10 +63,10 @@ function Reviews() {
                     </div>
                 </div>
                 <div className="review__text">
-                I used to solve with PioSolver and have
-                tested some other sites, but the interface,
-                simplicity, accuracy, and effectiveness of
-                GTO Wizard is by far the best.
+                    I used to solve with PioSolver and have
+                    tested some other sites, but the interface,
+                    simplicity, accuracy, and effectiveness of
+                    GTO Wizard is by far the best.
                 </div>
                 <div className="review__footer">
                     <div className="review__footer-item">10:35 PM - Jan 14, 2022</div>

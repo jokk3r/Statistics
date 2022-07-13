@@ -30,8 +30,8 @@
         gap: 30px;
         
         @media (max-width: 600px) {
-         flex-wrap: wrap;   
-         gap: 20px;
+            flex-wrap: wrap;   
+            gap: 20px;
         }
         &-item{
             &:last-child{

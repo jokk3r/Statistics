@@ -10,11 +10,10 @@ body{
 
 //Container
 .container{
-    max-width: ($containerWidth + $containerPadding) + px;
+    max-width: ($containerWidth) + px;
     width: 100%;
 
     margin: 0 auto;
-   /*  padding: 0 $containerSidePadding + px; */
     
     @media (max-width: $breakpoint1200) {
     max-width: 1160px;
